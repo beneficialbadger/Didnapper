@@ -5921,7 +5921,7 @@
     "16": {
       "typeName": "RPG::Event",
       "id": 16,
-      "name": "Cell door 3",
+      "name": "Carol Cell Door Bottom",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -6723,9 +6723,10 @@
                 [
                   "Take her to the Private Cell",
                   "Release her",
+                  "Keep her overnight",
                   "Nevermind"
                 ],
-                3
+                4
               ]
             },
             {
@@ -6872,6 +6873,53 @@
               "indent": 0,
               "parameters": [
                 2,
+                "Keep her overnight"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                710,
+                710,
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                711,
+                711,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 1,
+              "parameters": [
+                230
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                3,
                 "Nevermind"
               ]
             },
@@ -8120,7 +8168,7 @@
     "19": {
       "typeName": "RPG::Event",
       "id": 19,
-      "name": "Top piece 3",
+      "name": "Carol Cell Door Top",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -18003,7 +18051,7 @@
     "45": {
       "typeName": "RPG::Event",
       "id": 45,
-      "name": "Sprite graphics",
+      "name": "Sprite graphics (Carol)",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -18997,7 +19045,7 @@
     "47": {
       "typeName": "RPG::Event",
       "id": 47,
-      "name": "Top piece 3",
+      "name": "Athena Cell Door Top",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -20936,7 +20984,7 @@
     "5": {
       "typeName": "RPG::Event",
       "id": 5,
-      "name": "Athena action",
+      "name": "Athena Cell Door Bottom",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -21463,9 +21511,10 @@
                 [
                   "Take her to the Private Cell",
                   "Release her",
+                  "Keep her overnight",
                   "Nevermind"
                 ],
-                3
+                4
               ]
             },
             {
@@ -21612,6 +21661,53 @@
               "indent": 0,
               "parameters": [
                 2,
+                "Keep her overnight"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                710,
+                710,
+                0,
+                0,
+                3
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                711,
+                711,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 1,
+              "parameters": [
+                230
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                3,
                 "Nevermind"
               ]
             },
@@ -31037,7 +31133,7 @@
     "68": {
       "typeName": "RPG::Event",
       "id": 68,
-      "name": "Evelyn cell door",
+      "name": "Evelyn Cell Door Bottom",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
@@ -31517,9 +31613,10 @@
                 [
                   "Take her to the Private Cell",
                   "Release her",
+                  "Keep her overnight",
                   "Nevermind"
                 ],
-                3
+                4
               ]
             },
             {
@@ -31690,6 +31787,53 @@
               "indent": 0,
               "parameters": [
                 2,
+                "Keep her overnight"
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                710,
+                710,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 122,
+              "indent": 1,
+              "parameters": [
+                711,
+                711,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 117,
+              "indent": 1,
+              "parameters": [
+                230
+              ]
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 0,
+              "indent": 1,
+              "parameters": []
+            },
+            {
+              "typeName": "RPG::EventCommand",
+              "code": 402,
+              "indent": 0,
+              "parameters": [
+                3,
                 "Nevermind"
               ]
             },
@@ -32657,7 +32801,7 @@
     "69": {
       "typeName": "RPG::Event",
       "id": 69,
-      "name": "Top piece 1",
+      "name": "Evelyn Cell Door Top",
       "pages": [
         {
           "typeName": "RPG::Event::Page",
