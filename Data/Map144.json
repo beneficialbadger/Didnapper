@@ -11143,15 +11143,7 @@
               "code": 355,
               "indent": 0,
               "parameters": [
-                "$game_system.text_skip = false"
-              ]
-            },
-            {
-              "typeName": "RPG::EventCommand",
-              "code": 655,
-              "indent": 0,
-              "parameters": [
-                "true"
+                "$game_system.text_skip = true"
               ]
             },
             {

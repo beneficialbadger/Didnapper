@@ -1,2 +1,3 @@
 v0.1
 New option for team members in Trophy Hall.
+Fixed Carol's initial dialogue in Living Quarters being unskippable (because it was annoying me).
