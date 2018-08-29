@@ -357,7 +357,8 @@ class PrivateCellDamselAlexie < PrivateCellDamsel
 			'shyness' =>\
 			[\
 				{'text'=>'  Suki1:  You should be glad I kidnapped you. I mean, now you don\'t have to dig around in the dirt all day.', 'talking'=>false,'proc'=>nil},\
-				{'text'=>'  Alexie:  I mean, that\'s not really all we do. There\'s actually a whole host of interesting discoveries and theories to ponder over! Like, did you know, for instance, that just outside of Ghiaccio we found evidence of angel worshippers? It\'s fascinating because… oh dear, I went on a rant again, didn\'t I?', 'talking'=>true,'proc'=>nil}\
+				{'text'=>'  Alexie:  I mean, that\'s not really all we do. There\'s actually a whole host of interesting discoveries and theories to ponder over! Like, did you know, for instance, that just outside of Ghiaccio we found evidence of angel worshippers?', 'talking'=>true,'proc'=>nil},\
+        {'text'=>'  Alexie:  It\'s fascinating because… oh dear, I went on a rant again, didn\'t I?', 'talking'=>true,'proc'=>nil}\
 			],\
 			'neutral' =>\
 			[\
