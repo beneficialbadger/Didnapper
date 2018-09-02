@@ -503,6 +503,12 @@ class PrivateCellDamsel
         reportMoodChange
       end
     if $game_switches[124] == true
+      last = @conversationStack.last
+      if last != nil
+        if last.has_key?('end') && last['end'] == true
+          $DIend = true #to respect forced quit even if dialogue disabled
+        end
+      end
       @conversationStack = [] #Disables dialogue - Kendrian
       if @@saved[@tag]['gag'] != 'ungagged' then mmph
       end
@@ -523,6 +529,10 @@ class PrivateCellDamsel
 				if @@saved[@tag]['gag'] != 'ungagged' then
 					mmph()
           @lastInConvo = true
+          # option to continue dialogue even if gagged (but not if really the last one)
+          if dia.has_key?('force_continue') && dia['force_continue'] == true && @conversationStack.length > 0
+            @lastInConvo = false 
+          end
 					iter = 0
 					if message.index(':') then
 						iter = message.index(':') + 1
@@ -545,6 +555,25 @@ class PrivateCellDamsel
 				$privateCellWindow = nil
 			end
 			wSay(message,"")
+      
+      if dia.has_key?('gag') && dia['gag'] != nil
+        if @@saved[@tag]['gag'] != dia['gag']
+          @@saved[@tag]['gag'] = dia['gag']
+          regeneratePicture
+        end
+      end
+      
+      if dia.has_key?('blindfold') && dia['blindfold'] != nil
+        if @@saved[@tag]['blindfold'] != dia['blindfold']
+          @@saved[@tag]['blindfold'] = dia['blindfold']
+          regeneratePicture
+        end
+      end
+      
+      if dia.has_key?('end') && dia['end'] == true
+        $DIend = true
+      end
+
 			#if dia.has_key?('text') && dia['text'].include?("\\n")
 				#lines = dia['text'].split("\\n")
 				#wSay(lines[0],lines[1])
