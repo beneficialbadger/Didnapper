@@ -449,6 +449,8 @@ class PrivateCellDamsel
 				decreaseEmotion('shyness')
 				increaseEmotion('happiness')
 				@@saved[@tag]['gag'] = 'ungagged'
+				when 'maid'
+				@conversationStack = @dialogue['maid'][0].clone
 				else
 					if action[0..5] == 'outfit' && @@saved[@tag]['outfit'] != action
 						@@saved[@tag]['outfit'] = action

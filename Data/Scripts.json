@@ -88,6 +88,10 @@
     "Game_Event"
   ],
   [
+    29649294,
+    "Game_Event StartStop"
+  ],
+  [
     47174434,
     "Game_Player"
   ],

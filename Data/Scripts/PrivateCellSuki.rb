@@ -1970,9 +1970,27 @@ class PrivateCellDamselSuki < PrivateCellDamsel
 		diaArray.push({'text'=>'Suki1: Whew…','proc'=>nil,'talking'=>true})
 		emoHash['neutral'] = diaArray
 
-
-		
 		@dialogue['intro'][3] = emoHash
+    
+    #"speak" maid
+		@dialogue['maid'] = []
+		diaArray = []
+		diaArray.push({'text'=>'Carol: I had a thought. Since that one time in Ghiaccio, you didn\'t really use this costume, did you?','proc'=>nil,'gag'=>'ungagged','blindfold'=>false})
+		diaArray.push({'text'=>'Suki1: No, why?','proc'=>nil,'talking'=>true})
+    diaArray.push({'text'=>'Carol: Let\'s take it for a spin! The living quarters sure could use a maid.','proc'=>nil})
+		diaArray.push({'text'=>'Suki1: Uhhhh...','proc'=>method(:face_annoyed),'talking'=>true})
+    diaArray.push({'text'=>'Carol: Don\'t worry, I\'ll just tell everyone you\'re training for a secret mission.','proc'=>nil})
+		diaArray.push({'text'=>'Suki1: I think that\'s a horrible idea!','proc'=>nil,'talking'=>true})
+    diaArray.push({'text'=>'Carol: And I think that\'s a great idea! And since I\'m the one who isn\'t tied up at the moment...','proc'=>method(:face_annoyed),'talking'=>true})
+    diaArray.push({'text'=>'Suki1: Please don\'t...','proc'=>method(:face_afraid),'talking'=>true})
+    diaArray.push({'text'=>'Carol: No complaining! After all, the only thing better than a maid is a gagged maid.','proc'=>nil,'gag'=>'ball'})
+    diaArray.push({'text'=>'Suki1: Stop doing this!','proc'=>nil,'talking'=>true,'force_continue'=>true})
+    diaArray.push({'text'=>'Carol: And the only thing better than a gag is two gags!','proc'=>nil,'gag'=>'otn'})
+    diaArray.push({'text'=>'Suki1: ...','proc'=>nil,'talking'=>true,'force_continue'=>true})
+    diaArray.push({'text'=>'Carol: We\'re all set now, let\'s go!','proc'=>method(:face_shy)})
+    diaArray.push({'text'=>'','proc'=>nil,'end'=>true})
+    #end with empty one to make sure the one before is shown long enough to read
+    @dialogue['maid'].push(diaArray)
 	end
 	
 end
