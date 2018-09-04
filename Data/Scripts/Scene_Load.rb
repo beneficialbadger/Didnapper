@@ -13,7 +13,7 @@ class Scene_Load < Scene_File
     $game_temp = Game_Temp.new
     # Timestamp selects new file
     $game_temp.last_file_index = 0
-    latest_time = Time.at(0)
+    latest_time = Time.utc(1970)
     for i in 0..3
       filename = make_filename(i)
       if FileTest.exist?(filename)

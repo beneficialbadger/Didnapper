@@ -12,7 +12,7 @@ def initialize(file_index, filename, position)
   self.contents = Bitmap.new(width - 32, height - 32)
   @file_index = file_index
   @filename = "Save#{@file_index + 1}.rxdata"
-  @time_stamp = Time.at(0)
+  @time_stamp = Time.utc(1970)
   @file_exist = FileTest.exist?(@filename)
   if @file_exist
     file = File.open(@filename, "r")
