@@ -1351,9 +1351,26 @@ class PrivateCellDamselMaid < PrivateCellDamsel
 				{'text'=>'Nataleigh: Don\'t think this makes us okay!', 'talking'=>true,'proc'=>nil},\
 			]\
 		},\
-	]\
+	],\
+  'maid' =>\
+	[\
+		[\
+			{'text'=>'Suki1: You know, Carol gave me an idea. We could actually use a maid around here...', 'talking'=>false, 'proc'=>nil, 'gag'=>'ungagged', 'blindfold'=>false},\
+			{'text'=>'Nataleigh: What? No!', 'talking'=>true,'proc'=>nil},\
+			{'text'=>'Suki1: Actually I wasn\'t going to do that, but then I remembered some of those nice threats of yours... Oh, you know, cleaning the castle while tied up and gagged? We don\'t have a castle, but this lair should do just fine.', 'talking'=>false,'proc'=>nil},\
+			{'text'=>'Nataleigh: How dare you?! I\'m not going to serve this rabble!', 'talking'=>true,'proc'=>method(:face_angry)},\
+			{'text'=>'Suki1: I don\'t think you\'re in any position to refuse...', 'talking'=>false,'proc'=>nil},\
+ 			{'text'=>'Nataleigh: ...', 'talking'=>true,'proc'=>method(:face_afraid)},\
+      {'text'=>'Suki1: And since maids should be seen and not heard...','proc'=>nil,'gag'=>'ball'},\
+      {'text'=>'Nataleigh: I\'ll get you for this!','proc'=>method(:face_angry),'talking'=>true,'force_continue'=>true},\
+      {'text'=>'Suki1: Also, as Carol says, two gags are better than one.','proc'=>nil,'gag'=>'otn'},\
+      {'text'=>'Nataleigh: I\'ll get her for this too!','proc'=>method(:face_angry),'talking'=>true,'force_continue'=>true},\
+      {'text'=>'Suki1: We\'re all set, time to go!', 'proc'=>nil},\
+      {'text'=>'','proc'=>nil,'end'=>true}\
+		],\
+  ]
 };
-		
+
 	end
 end
 $privateCellDamsels['maid'] = PrivateCellDamselMaid.new

@@ -109,7 +109,7 @@
     "pitch": 100,
     "volume": 80
   },
-  "magic_number": 33379901,
+  "magic_number": 10128136,
   "party_members": [
     1
   ],
@@ -734,7 +734,7 @@
     "MaidGameSwitch2",
     "MaidGamePenalty",
     "MaidGameCompleted",
-    "",
+    "MaidCalled",
     "",
     "",
     "",
@@ -1500,7 +1500,7 @@
     "OvernightDamsel",
     "OvernightCounter",
     "MaidGameCounter",
-    "",
+    "MaidRandomNumber",
     "",
     "",
     "",

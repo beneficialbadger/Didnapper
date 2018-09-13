@@ -449,8 +449,23 @@ class PrivateCellDamsel
 				decreaseEmotion('shyness')
 				increaseEmotion('happiness')
 				@@saved[@tag]['gag'] = 'ungagged'
-				when 'maid'
-				@conversationStack = @dialogue['maid'][0].clone
+        when 'maid'
+          if $currentPrivateCellDamsel == "suki"
+            #because game variables don't work inside PC classes
+            if $game_switches[604] == true  #was maid minigame completed
+              @conversationStack = @dialogue['maid'][1].clone
+            else
+              @conversationStack = @dialogue['maid'][2].clone
+            end
+            if $game_variables[626] > 5 #is Nataleigh a maid in LQ
+              @conversationStack += @dialogue['maid'][3].clone
+            else
+              @conversationStack += @dialogue['maid'][4].clone
+            end
+              
+          else
+            @conversationStack = @dialogue['maid'][0].clone
+          end
 				else
 					if action[0..5] == 'outfit' && @@saved[@tag]['outfit'] != action
 						@@saved[@tag]['outfit'] = action

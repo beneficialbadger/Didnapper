@@ -84,6 +84,10 @@
     "Game_Character 3"
   ],
   [
+    98648501,
+    "Game_Character Custom"
+  ],
+  [
     75787353,
     "Game_Event"
   ],
@@ -108,7 +112,7 @@
     "Sprite_Picture"
   ],
   [
-    85012817,
+    5932734,
     "Sprite_Timer"
   ],
   [
@@ -434,6 +438,10 @@
   [
     25402618,
     "Path Finding v2"
+  ],
+  [
+    88346034,
+    "Lagless Path Finder"
   ],
   [
     85190489,
