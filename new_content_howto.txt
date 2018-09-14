@@ -1,0 +1,9 @@
+v0.2
+Maid minigame.
+To activate:
+Put Suki in the Private Cell. Pick Maid Outfit. There will be a new "maid" option in the main menu.
+v0.1
+New option for team members in the Trophy Hall.
+To activate:
+Have a team member locked in a cell in the Trophy Hall. Interact with the door. Pick "Keep her overnight."
+Carol has additional interactions.

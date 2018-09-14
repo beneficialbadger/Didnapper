@@ -1,4 +1,11 @@
+v0.2
+Maid minigame.
+Fixed savegame issue.
+Added "Lagless Path Finder" script.
+Added turn_toward_event method for events (to enable making NPCs face each other).
+Added options for scripting Private Cell dialogues (gag, blindfold, quit, force continue).
+Added stop_moving and restart_moving methods for events (to enable temporarily stopping their movement).
 v0.1
-New option for team members in Trophy Hall.
+New option for team members in the Trophy Hall.
 Fixed Carol's initial dialogue in Living Quarters being unskippable (because it was annoying me).
 Fixed Alexie's text in PC getting out of bounds.
