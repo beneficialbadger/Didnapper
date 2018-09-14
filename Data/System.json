@@ -109,7 +109,7 @@
     "pitch": 100,
     "volume": 80
   },
-  "magic_number": 10128136,
+  "magic_number": 59969393,
   "party_members": [
     1
   ],
@@ -735,7 +735,7 @@
     "MaidGamePenalty",
     "MaidGameCompleted",
     "MaidCalled",
-    "",
+    "MaidGameLoss",
     "",
     "",
     "",
