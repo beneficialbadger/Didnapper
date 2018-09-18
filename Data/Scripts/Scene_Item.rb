@@ -4,16 +4,16 @@
 #  This class performs item screen processing.
 #==============================================================================
 
-class Scene_Options
+class Scene_Item
   #--------------------------------------------------------------------------
   # * Main Processing
   #--------------------------------------------------------------------------
   def main
-    # Make help window, option window
+    # Make help window, item window
     @help_window = Window_Help.new
-    @options_window = Window_Options.new
+    @item_window = Window_Item.new
     # Associate help window
-    @options_window.help_window = @help_window
+    @item_window.help_window = @help_window
     # Make target window (set to invisible / inactive)
     @target_window = Window_Target.new
     @target_window.visible = false
@@ -37,7 +37,7 @@ class Scene_Options
     Graphics.freeze
     # Dispose of windows
     @help_window.dispose
-    @options_window.dispose
+    @item_window.dispose
     @target_window.dispose
   end
   #--------------------------------------------------------------------------
@@ -46,11 +46,11 @@ class Scene_Options
   def update
     # Update windows
     @help_window.update
-    @options_window.update
+    @item_window.update
     @target_window.update
-    # If option window is active: call update_options
-    if @options_window.active
-      update_options
+    # If item window is active: call update_item
+    if @item_window.active
+      update_item
       return
     end
     # If target window is active: call update_target
@@ -60,57 +60,40 @@ class Scene_Options
     end
   end
   #--------------------------------------------------------------------------
-  # * Frame Update (when option window is active)
+  # * Frame Update (when item window is active)
   #--------------------------------------------------------------------------
-  def update_options
+  def update_item
     # If B button was pressed
     if Input.trigger?(Input::B)
       # Play cancel SE
       $game_system.se_play($data_system.cancel_se)
       # Switch to menu screen
-      $scene = Scene_Menu.new(5)
+      $scene = Scene_Menu.new(0)
       return
     end
     # If C button was pressed
     if Input.trigger?(Input::C)
-      # Get currently selected data on the option window
-      @item = @options_window.item
-      # Branch by command window cursor position
-      case @options_window.index
-      when 0  # Tutorial text
-        if $game_switches[125] == true
-          $game_switches[125] = false
-        else
-          $game_switches[125] = true
-        end
-      when 1  # Game difficulty
-        if $game_variables[160] >= 1
-          $game_variables[160] = 0
-        else
-          $game_variables[160] + 1
-        end
-      else
-        $game_system.se_play($data_system.cancel_se)
+      # Get currently selected data on the item window
+      @item = @item_window.item
+      # If not a use item
+      unless @item.is_a?(RPG::Item)
+        # Play buzzer SE
+        $game_system.se_play($data_system.buzzer_se)
+        return
       end
-# If not a use item
-#      unless @item.is_a?(RPG::Item)
-        # Play buzzer SE
-#        $game_system.se_play($data_system.buzzer_se)
-#        return
-#      end
       # If it can't be used
-#      unless $game_party.item_can_use?(@item.id)
+      unless $game_party.item_can_use?(@item.id)
         # Play buzzer SE
-#        $game_system.se_play($data_system.buzzer_se)
-#        return
-#      end
+        $game_system.se_play($data_system.buzzer_se)
+        return
+      end
       # Play decision SE
       $game_system.se_play($data_system.decision_se)
       # If effect scope is an ally
-=begin      if @item.scope >= 3
+      if @item.scope >= 3
         # Activate target window
-        @options_window.active = false
-        @target_window.x = (@options_window.index + 1) % 2 * 304
+        @item_window.active = false
+        @target_window.x = (@item_window.index + 1) % 2 * 304
         @target_window.visible = true
         @target_window.active = true
         # Set cursor position to effect scope (single / all)
@@ -132,13 +115,13 @@ class Scene_Options
             # Decrease used items by 1
             $game_party.lose_item(@item.id, 1)
             # Draw item window item
-            @options_window.draw_item(@options_window.index)
+            @item_window.draw_item(@item_window.index)
           end
           # Switch to map screen
           $scene = Scene_Map.new
           return
         end
-=end      end
+      end
       return
     end
   end
@@ -153,10 +136,10 @@ class Scene_Options
       # If unable to use because items ran out
       unless $game_party.item_can_use?(@item.id)
         # Remake item window contents
-        @options_window.refresh
+        @item_window.refresh
       end
       # Erase target window
-      @options_window.active = true
+      @item_window.active = true
       @target_window.visible = false
       @target_window.active = false
       return
@@ -192,7 +175,7 @@ class Scene_Options
           # Decrease used items by 1
           $game_party.lose_item(@item.id, 1)
           # Redraw item window item
-          @options_window.draw_item(@options_window.index)
+          @item_window.draw_item(@item_window.index)
         end
         # Remake target window contents
         @target_window.refresh
