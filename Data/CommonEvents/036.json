@@ -1,0 +1,233 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 36,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 0,
+        "parameters": [
+          33
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          322,
+          322,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          2,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          323,
+          323,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          3,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          324,
+          324,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          4,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          325,
+          325,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          6,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          385,
+          385,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          7,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          391,
+          391,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "This last one is for outdated battles."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          321,
+          321,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Healing",
+    "switch_id": 1,
+    "trigger": 0
+  },

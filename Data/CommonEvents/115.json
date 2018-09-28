@@ -1,0 +1,8879 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 115,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          468,
+          468,
+          0,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 235,
+        "indent": 0,
+        "parameters": [
+          40
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          12,
+          "$privateCellWindow != nil"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$privateCellWindow.dispose()"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 1,
+        "parameters": [
+          "$privateCellWindow = nil"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Text is displayed with the script command"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "wSay(\"Line 1\",\"Line 2\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "If you want quotes in the lines, use \\\" for each quote "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "like (\"\\\"Line 1\\\"\",\"\\\"Line 2\\\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Intro"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "----------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Intro"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmmmph!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "shortmmmph3",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 3,
+        "parameters": [
+          "wSay(\"\\\"Um, hello?\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Oh, it's you...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 5,
+        "parameters": [
+          "Angry"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          385,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Untie me right now! This is "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 6,
+        "parameters": [
+          "not funny!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          393,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"When I get out of here I will "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 7,
+        "parameters": [
+          "TEAR YOU TO SHREDS\",\"and decorate "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 7,
+        "parameters": [
+          "my outhouse with your HEAD!\\\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Let me go!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          384,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 8,
+        "parameters": [
+          "IntroCarolFlirt"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Oh no, you've got me all"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\",\"tied up and helpless~\\\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 8,
+        "parameters": [
+          "End"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 7,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 7,
+        "parameters": [
+          "End"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          384,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 8,
+        "parameters": [
+          "IntroCarolFlirt"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Hello~!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Let me go...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"What do you want with me?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Gag change"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "-------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "GagChange"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "wSay(\"\\\"Mmmghphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Ungag"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "-------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Ungag"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Ah",
+            "pitch": 100,
+            "volume": 100
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 2,
+        "parameters": [
+          "UngaggedThanks..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Thanks...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 2,
+        "parameters": [
+          "End"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 3,
+        "parameters": [
+          "wSay(\"\\\"You should be glad you "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 3,
+        "parameters": [
+          "removed that now!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Thank you...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Aah, thanks...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 6,
+        "parameters": [
+          "UngaggedThanks..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "-------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Position change"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Tie"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"You like this tie better?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 2,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mhph",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "-------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Blindfold"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Blindfold"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 2,
+        "parameters": [
+          "Remove"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 3,
+        "parameters": [
+          "wSay(\"\\\"Aah, thanks...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mhph",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 3,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 2,
+        "parameters": [
+          "Add"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 3,
+        "parameters": [
+          "BlindfoldProtest"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"What...? No! Take it off!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 4,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Mmmmmphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 4,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 6",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Now I can't see a thing..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 5,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 5,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 6",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "BlindfoldProtest"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Small Talk"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "SmallTalk"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          0,
+          51,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 2,
+        "parameters": [
+          "\\nm[\\n[21]]So, how are you?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 3,
+        "parameters": [
+          "\\nm[\\n[1]]Mmmmph..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 3,
+        "parameters": [
+          "\\nm[\\n[21]]Oh, right, you're gagged..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 4,
+        "parameters": [
+          "\\nm[\\n[1]]..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 4,
+        "parameters": [
+          "\\nm[\\n[21]]Well, if you don't want to talk..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 5,
+        "parameters": [
+          "\\nm[\\n[1]]Is that supposed to be funny?!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 5,
+        "parameters": [
+          "\\nm[\\n[21]]Well, if you don't want to talk..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 6,
+        "parameters": [
+          "\\nm[\\n[1]]I'm pretty good, I think..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 6,
+        "parameters": [
+          "\\nm[\\n[21]]Oh, good~!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[1]]I'm feeling very good!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[21]]Nice!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[1]]I'm alright~"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[21]]Good!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[1]]..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[21]]Not too good, huh?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 9,
+        "parameters": [
+          "\\nm[\\n[1]]I... I'm alright, I hope..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 9,
+        "parameters": [
+          "\\nm[\\n[21]]Good~"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 2,
+        "parameters": [
+          "\\nm[\\n[1]]So, how are you?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 3,
+        "parameters": [
+          "\\nm[\\n[21]]Mmmmph..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 3,
+        "parameters": [
+          "\\nm[\\n[1]]Oh, right, you're gagged..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 4,
+        "parameters": [
+          "\\nm[\\n[21]]..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 4,
+        "parameters": [
+          "\\nm[\\n[1]]Well, if you don't want to talk..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 5,
+        "parameters": [
+          "\\nm[\\n[21]]Is that supposed to be funny?!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 5,
+        "parameters": [
+          "\\nm[\\n[1]]Well, if you don't want to talk..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 6,
+        "parameters": [
+          "\\nm[\\n[21]]I'm pretty good, I think..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 6,
+        "parameters": [
+          "\\nm[\\n[1]]Oh, good~!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[21]]I'm feeling very good!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[1]]Nice!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[21]]I'm alright~"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[1]]Good!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[21]]..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 8,
+        "parameters": [
+          "\\nm[\\n[1]]Not too good, huh?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 9,
+        "parameters": [
+          "\\nm[\\n[21]]I... I'm alright, I hope..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 9,
+        "parameters": [
+          "\\nm[\\n[1]]Good~"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Insult"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Insult"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmmghphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 7",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 3,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Okay...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 4,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"I hate you...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Don't say that!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Why are you saying that?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 6,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Okay...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"That's a little harsh, but "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 6,
+        "parameters": [
+          "okay.\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Why are you saying that?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 7,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 8,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Why are you saying that?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 9,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Don't say that!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Compliment"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Compliment"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 3,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Thanks...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          31,
+          0,
+          40,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Your flattery won't affect "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 5,
+        "parameters": [
+          "me!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Whatever...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Thank you...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"You think so...?\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Thanks...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Thanks!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"I'm flattered!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Whatever...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"That's nice...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 8,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Um... Thank you...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"That's nice...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Threaten"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Threaten"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmghphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 7",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 3,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Okay...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"I'm not scared of you!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"That's mean...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Um...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Those are just empty "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 7,
+        "parameters": [
+          "threats, right?\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Um...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"That's mean...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Um...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 8,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Please don't hurt me..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 9,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 9,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Charm"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Charm"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 3,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"What's that supposed to "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 4,
+        "parameters": [
+          "mean?\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          31,
+          0,
+          40,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"What's that supposed to "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 5,
+        "parameters": [
+          "mean?\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"What are you trying to say?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 5,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Stop it! You're making me "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 6,
+        "parameters": [
+          "blush...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 6,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"You're not so bad.\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Do you mean that?\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"What are you trying to say?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 8,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 8,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"I... I don't know what to "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 9,
+        "parameters": [
+          "say...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 9,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Tickle"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Tickle"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          38,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 2,
+        "parameters": [
+          "Not ticklish"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 3,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 4,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mhph",
+            "pitch": 110,
+            "volume": 50
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"I'm not ticklish...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"You're wasting your time..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 6,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Sorry, I'm not ticklish..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 6,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Sorry, I'm not ticklish..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"That won't work on me..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"I'm not ticklish...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 9,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 2,
+        "parameters": [
+          468,
+          468,
+          0,
+          2,
+          7,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          38,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 4,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Mmmmphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 5,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Mmhmhmphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 6,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Laughing mmmmhhhh",
+            "pitch": 110,
+            "volume": 90
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Mmmhmhmhmpf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 6,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 8",
+            "pitch": 110,
+            "volume": 90
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 4,
+        "parameters": [
+          "wSay(\"\\\"Mmmmphf...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 4,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Don't do that!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Stop it!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Hahaha! No, hah, stop! "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 7,
+        "parameters": [
+          "Ahahaha!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Hahahaha!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Ahahahahaha!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Stop it, please!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Please stop...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Hit"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Hit"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          39,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 2,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          39,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 3,
+        "parameters": [
+          "wSay(\"\\\"Mmmmphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Ouch!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 6,
+        "parameters": [
+          "Happy or Shy"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Oh!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"*Gasp!*\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Oh! Don't stop!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Ouch!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Ouch...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          39,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 3,
+        "parameters": [
+          "wSay(\"\\\"Mmmmphf!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 4,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Ouch!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Stop it!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 6,
+        "parameters": [
+          "Happy or Shy"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 7,
+        "parameters": [
+          "wSay(\"\\\"Ouch...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"*Gasp!*\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Why are you doing that?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Ouch...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Ouch!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Please stop...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 8,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Ouch!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Stop it, please!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Kiss"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Kiss"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 2,
+        "parameters": [
+          "wSay(\"\\\"Mmmph...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mphf 9",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          81,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 3,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          1,
+          81,
+          0,
+          5,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 4,
+        "parameters": [
+          "Angry"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 4,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          40,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Don't do that!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Stop it!\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 6,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 6,
+        "parameters": [
+          "wSay(\"\\\"Um...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          1,
+          81,
+          0,
+          10,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 5,
+        "parameters": [
+          "Shy"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 5,
+        "parameters": [
+          "wSay(\"\\\"Mmmm...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          1,
+          81,
+          0,
+          15,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 6,
+        "parameters": [
+          "Happy"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          40,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Um...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Please don't do that..."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 8,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"Mmmm...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 8,
+        "parameters": [
+          "wSay(\"\\\"How sweet of you.\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 6,
+        "parameters": [
+          "Sad"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 6,
+        "parameters": [
+          1,
+          81,
+          0,
+          20,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 7,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          40,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 9,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Please stop...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 9,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 9,
+        "parameters": [
+          "wSay(\"\\\"Um... Thank you...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 7,
+        "parameters": [
+          "Scared"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 7,
+        "parameters": [
+          1,
+          81,
+          0,
+          25,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 8,
+        "parameters": [
+          24,
+          24,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 8,
+        "parameters": [
+          1,
+          40,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 9,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 10,
+        "parameters": [
+          "wSay(\"\\\"Why are you doing that?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 655,
+        "indent": 10,
+        "parameters": [
+          "\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 10,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 10,
+        "parameters": [
+          "wSay(\"\\\"Please stop...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 10,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 9,
+        "parameters": [
+          1,
+          24,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 10,
+        "parameters": [
+          "DotX3"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 10,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 10,
+        "parameters": [
+          "wSay(\"\\\"Um...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 10,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 9,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 8,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 7,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 0,
+        "parameters": [
+          "End"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "------------------"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Grope"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          20,
+          1,
+          "Grope"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          467,
+          467,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "wSay(\"\\\"Please stop...\\\"\",\"\")"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 112,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          11,
+          13
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 106,
+        "indent": 2,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 113,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 413,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 320,
+        "indent": 0,
+        "parameters": [
+          20,
+          "System"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "DI Dialogue",
+    "switch_id": 1,
+    "trigger": 0
+  },

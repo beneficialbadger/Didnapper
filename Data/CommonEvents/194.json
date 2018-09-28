@@ -1,0 +1,851 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 194,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "This CE checks if the personality variables are within "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "the limits (0-10 and 0-50). If they aren't, this event "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "will correct them. Call this event after you've added "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "or removed 1 or more points from one of the "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "personality variables."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "When making dialogue or something else happen "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "depending on these, you can make them either use "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "the variables from the small ones like Honesty or "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Courage, or you can use the Overall Goodness."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Some examples would be:"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "If Honesty is 6 or above => tell the truth"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          " Else => Lie"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "If overall goodness is 20 or below => \"Hah! Serves "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "you right!\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          " Else: If ----||----- is 35 or below = It's just how it is.\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "  Else => \"I'm sory...\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          102,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          102,
+          102,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "Curiosity (Openness to experience)"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          102,
+          0,
+          10,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          102,
+          102,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          103,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          103,
+          103,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "Conscientiousness"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          103,
+          0,
+          10,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          103,
+          103,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          104,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          104,
+          104,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "Extraversion"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          104,
+          0,
+          10,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          104,
+          104,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          105,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          105,
+          105,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "Agreeableness"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          105,
+          0,
+          10,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          105,
+          105,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          106,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          106,
+          106,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "Neuroticism"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          106,
+          0,
+          10,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          106,
+          106,
+          0,
+          0,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 106,
+        "indent": 0,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          101,
+          101,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          101,
+          101,
+          1,
+          1,
+          102
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          101,
+          101,
+          1,
+          1,
+          103
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          101,
+          101,
+          1,
+          1,
+          104
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          101,
+          101,
+          1,
+          1,
+          105
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          101,
+          101,
+          1,
+          1,
+          106
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "This check below here should not be neccesary, but I "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "put it here just in case. "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "-K"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          101,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          101,
+          101,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          101,
+          0,
+          50,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          101,
+          101,
+          0,
+          0,
+          50
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "We might eventually remove this part, but for now "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "we need it for the game to work."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          101,
+          0,
+          25,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          135,
+          135,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          134,
+          134,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          101,
+          0,
+          25,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          135,
+          135,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          134,
+          134,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "PersonalityMidline determines the middle of the "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "personality traits' max points"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          107,
+          107,
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "(Personality Update)",
+    "switch_id": 1,
+    "trigger": 0
+  },

@@ -1,0 +1,80 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 210,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          204,
+          204,
+          0,
+          6,
+          -1,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          204,
+          1,
+          339,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          339,
+          339,
+          0,
+          1,
+          204
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          139
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 106,
+        "indent": 0,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Terrain tag part 1",
+    "switch_id": 338,
+    "trigger": 2
+  },

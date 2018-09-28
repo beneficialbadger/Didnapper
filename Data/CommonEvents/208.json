@@ -1,0 +1,210 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 208,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "To set the difficulty to Hard, just turn on the Call "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "Hard switch in the game, and it will use this settings."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "The Call Hard switch will be turned off again "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "afterwards until next time you switch the difficulties."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "This way it doesn't take any CPU, and you don't have "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "to worry about the settings."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          348,
+          350,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          128,
+          128,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          488,
+          488,
+          0,
+          0,
+          61
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          489,
+          489,
+          0,
+          0,
+          69
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          198,
+          198,
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          206,
+          206,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          205,
+          205,
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          208,
+          208,
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          207,
+          207,
+          0,
+          0,
+          6
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          160,
+          160,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          350,
+          350,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 320,
+        "indent": 0,
+        "parameters": [
+          13,
+          "Hard"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          141,
+          141,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Hard",
+    "switch_id": 141,
+    "trigger": 2
+  },

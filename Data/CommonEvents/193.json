@@ -1,0 +1,372 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 193,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "This update CE only works if the variable "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "\"[0150: New EXP]\" "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "has been set to the amount of exp you wish to "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 408,
+        "indent": 0,
+        "parameters": [
+          "recieve before running this CE."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          136,
+          136,
+          0,
+          4,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 315,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          1,
+          150
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          137,
+          137,
+          0,
+          4,
+          1,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          137,
+          1,
+          136,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 1,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "056-Right02",
+            "pitch": 85,
+            "volume": 70
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "\\tcYour party advanced to level \\p[5]\\c[2]\\v[137]\\c[0]!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "\\tl"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          382,
+          382,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          382,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          150,
+          150,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          382,
+          382,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          148,
+          148,
+          0,
+          4,
+          2,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          2,
+          1,
+          1,
+          148
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          2,
+          0,
+          1,
+          137
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          148,
+          148,
+          0,
+          4,
+          3,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          3,
+          1,
+          1,
+          148
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          3,
+          0,
+          1,
+          137
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          148,
+          148,
+          0,
+          4,
+          4,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          1,
+          148
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          4,
+          0,
+          1,
+          137
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          148,
+          148,
+          0,
+          4,
+          6,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          6,
+          1,
+          1,
+          148
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          6,
+          0,
+          1,
+          137
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          148,
+          148,
+          0,
+          4,
+          7,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          7,
+          1,
+          1,
+          148
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 316,
+        "indent": 0,
+        "parameters": [
+          7,
+          0,
+          1,
+          137
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "(Suki EXP Update)",
+    "switch_id": 1,
+    "trigger": 0
+  },

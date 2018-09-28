@@ -1,0 +1,65 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 148,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "Used in \"Hypnosis TS\" item"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 0,
+        "parameters": [
+          1,
+          0,
+          117
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "111-Heal07",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          69,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "\\N[1] learned \\c[4]Hypnosis\\c[0]!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Learning Hypnosis",
+    "switch_id": 1,
+    "trigger": 0
+  },

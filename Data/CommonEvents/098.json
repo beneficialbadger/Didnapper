@@ -1,0 +1,23 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 98,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 0,
+        "parameters": [
+          "This area reserved for DI graphics"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "(DI_New Reserved)",
+    "switch_id": 1,
+    "trigger": 0
+  },

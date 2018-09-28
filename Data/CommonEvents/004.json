@@ -1,0 +1,656 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 4,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          157,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "In battle"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          5,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 2,
+        "parameters": [
+          1,
+          0,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 2,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mmmmmhhhhhph!",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 2,
+        "parameters": [
+          309,
+          309,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 2,
+        "parameters": [
+          312,
+          312,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 2,
+        "parameters": [
+          151,
+          151,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 2,
+        "parameters": [
+          70
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          4,
+          2,
+          5,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 3,
+        "parameters": [
+          2,
+          0,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 3,
+        "parameters": [
+          318,
+          318,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 3,
+        "parameters": [
+          313,
+          313,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 3,
+        "parameters": [
+          151,
+          151,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Mmmmmhhhh 8",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 3,
+        "parameters": [
+          71
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 3,
+        "parameters": [
+          4,
+          4,
+          5,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 4,
+        "parameters": [
+          4,
+          0,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 4,
+        "parameters": [
+          377,
+          377,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 4,
+        "parameters": [
+          376,
+          376,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 4,
+        "parameters": [
+          151,
+          151,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 4,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Gagtalk 4",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 4,
+        "parameters": [
+          83
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 4,
+        "parameters": [
+          4,
+          6,
+          5,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 5,
+        "parameters": [
+          6,
+          0,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 5,
+        "parameters": [
+          383,
+          383,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 5,
+        "parameters": [
+          382,
+          382,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 5,
+        "parameters": [
+          151,
+          151,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 5,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Gagtalk 4",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 5,
+        "parameters": [
+          84
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 5,
+        "parameters": [
+          4,
+          7,
+          5,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 6,
+        "parameters": [
+          7,
+          0,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 6,
+        "parameters": [
+          389,
+          389,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 6,
+        "parameters": [
+          388,
+          388,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 6,
+        "parameters": [
+          151,
+          151,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 6,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "Gagtalk 4",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 6,
+        "parameters": [
+          135
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 6,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 5,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 4,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          33
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          30
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 108,
+        "indent": 1,
+        "parameters": [
+          "From the menu"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          5,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 2,
+        "parameters": [
+          150,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 2,
+        "parameters": [
+          1,
+          0,
+          131
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 2,
+        "parameters": [
+          1,
+          1,
+          130
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 2,
+        "parameters": [
+          70
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Self Bondage Skill",
+    "switch_id": 1,
+    "trigger": 0
+  },

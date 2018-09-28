@@ -1,0 +1,160 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 66,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          171,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          171,
+          171,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 0,
+        "parameters": [
+          "SkipCheckText"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "Wishes left: \\V[171]"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 0,
+        "parameters": [
+          "SkipCheckText"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          171,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          5,
+          5,
+          33
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 2,
+        "parameters": [
+          "\\N[5] is tied up and cannot leave the party."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 2,
+        "parameters": [
+          "\\N[5] leaves the party."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 129,
+        "indent": 2,
+        "parameters": [
+          5,
+          1,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Genie Status Check",
+    "switch_id": 1,
+    "trigger": 0
+  },

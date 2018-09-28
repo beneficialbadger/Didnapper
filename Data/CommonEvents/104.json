@@ -1,0 +1,158 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 104,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          132,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          201,
+          201,
+          2,
+          0,
+          10
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          168,
+          168,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          476,
+          476,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          55,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          148,
+          148,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 0,
+        "parameters": [
+          132,
+          132,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 0,
+        "parameters": [
+          -1,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 42,
+                "parameters": [
+                  75
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 0,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 42,
+            "parameters": [
+              75
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "151-Support09",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Call Invisibility Potion",
+    "switch_id": 1,
+    "trigger": 0
+  },

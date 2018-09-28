@@ -1,0 +1,15 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 242,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "",
+    "switch_id": 1,
+    "trigger": 0
+  },

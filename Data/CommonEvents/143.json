@@ -1,0 +1,167 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 143,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          175,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 320,
+        "indent": 1,
+        "parameters": [
+          20,
+          "System"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "You are currently on a mission. If you leave, the "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "mission progress will be lost. Are you sure you "
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "want to leave?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 102,
+        "indent": 1,
+        "parameters": [
+          [
+            "Yes",
+            "No"
+          ],
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 402,
+        "indent": 1,
+        "parameters": [
+          0,
+          "Yes"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 320,
+        "indent": 2,
+        "parameters": [
+          20,
+          "Yes"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 2,
+        "parameters": [
+          136
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 402,
+        "indent": 1,
+        "parameters": [
+          1,
+          "No"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 320,
+        "indent": 2,
+        "parameters": [
+          20,
+          "No"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 404,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 320,
+        "indent": 1,
+        "parameters": [
+          20,
+          "System"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Map mission end confirm",
+    "switch_id": 1,
+    "trigger": 0
+  },

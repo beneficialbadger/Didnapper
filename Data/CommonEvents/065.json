@@ -1,0 +1,152 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 65,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 125,
+        "indent": 0,
+        "parameters": [
+          0,
+          0,
+          2000
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "You obtained 2000g."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          14,
+          14,
+          1,
+          0,
+          30
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          34,
+          0,
+          0,
+          30
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "You obtained 30 \\oi[34]s."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          37,
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "You obtained 5 \\oi[37]s."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          48,
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "You obtained 3 \\oi[48]s."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 126,
+        "indent": 0,
+        "parameters": [
+          55,
+          0,
+          0,
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "You obtained 5 \\oi[55]s."
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          171,
+          171,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 312,
+        "indent": 0,
+        "parameters": [
+          5,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 0,
+        "parameters": [
+          66
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Item Stock Boost",
+    "switch_id": 1,
+    "trigger": 0
+  },

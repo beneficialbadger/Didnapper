@@ -1,0 +1,1052 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 93,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 0,
+        "parameters": [
+          25,
+          "FSSuki Black",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 0,
+        "parameters": [
+          20,
+          "FSSuki Base",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          4,
+          111
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          25,
+          "FSSukiPrologueBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          20,
+          "FSSukiPrologue",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          4,
+          106
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          25,
+          "FSSukiBikiniBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          20,
+          "FSSukiBikini",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          4,
+          110
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          25,
+          "FSSukiMaidBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          20,
+          "FSSukiMaidBase",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          4,
+          109
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          25,
+          "FSSukiBunnygirlBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          20,
+          "FSSukiBunnygirl",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          4,
+          112
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          25,
+          "FSSukiWeddingBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          20,
+          "FSSukiWeddingBase",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          4,
+          1,
+          5,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          25,
+          "FSSukiTiedBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 1,
+        "parameters": [
+          20,
+          "FSSukiTied",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          4,
+          106
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          25,
+          "FSSukiBikiniTiedBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          20,
+          "FSSukiBikiniTied",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          4,
+          110
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          25,
+          "FSSukiMaidTiedBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          20,
+          "FSSukiMaidTiedBase",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          4,
+          111
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          25,
+          "FSSukiPrologueTiedBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          20,
+          "FSSukiPrologueTied",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          4,
+          109
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          25,
+          "FSSukiBunnygirlTiedBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          20,
+          "FSSukiBunnygirlTied",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          4,
+          112
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          25,
+          "FSSukiWeddingTiedBlack",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          20,
+          "FSSukiWeddingTiedBase",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          562,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          4,
+          1,
+          5,
+          22
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          25,
+          "FSSuki BaseCB",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 2,
+        "parameters": [
+          20,
+          "FSSuki BaseC",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          4,
+          1,
+          4,
+          111
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          25,
+          "FSSukiPrologueCB",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          20,
+          "FSSukiPrologueC",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          4,
+          1,
+          4,
+          106
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          25,
+          "FSSukiBikiniCB",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          20,
+          "FSSukiBikiniC",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          4,
+          1,
+          4,
+          110
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          25,
+          "FSSukiMaidBaseCB",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          20,
+          "FSSukiMaidBaseC",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          4,
+          1,
+          4,
+          109
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          25,
+          "FSSukiBunnygirlCB",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          20,
+          "FSSukiBunnygirlC",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          4,
+          1,
+          4,
+          112
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          25,
+          "FSSukiWeddingBaseCB",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          150,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 231,
+        "indent": 3,
+        "parameters": [
+          20,
+          "FSSukiWeddingBaseC",
+          0,
+          0,
+          0,
+          0,
+          100,
+          100,
+          255,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Suki FS Base",
+    "switch_id": 1,
+    "trigger": 0
+  },

@@ -1,0 +1,223 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 85,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          378,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          378,
+          378,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 1,
+        "parameters": [
+          5,
+          1,
+          33
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          91
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          0,
+          124
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          0,
+          125
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          0,
+          126
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          0,
+          128
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          0,
+          137
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          1,
+          91
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          1,
+          104
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 318,
+        "indent": 1,
+        "parameters": [
+          5,
+          1,
+          131
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          171,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 2,
+        "parameters": [
+          66
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 1,
+        "parameters": [
+          "NotTied"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "She is not tied up!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 106,
+        "indent": 0,
+        "parameters": [
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          18
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Untie Self (Genie)",
+    "switch_id": 1,
+    "trigger": 0
+  },

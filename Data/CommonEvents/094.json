@@ -1,0 +1,4650 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 94,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          400,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"esther\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 119,
+        "indent": 1,
+        "parameters": [
+          "SKIP!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          12,
+          "$game_variables[651][$currentPrivateCellDamsel]['gag'] != 'ungagged'"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 118,
+        "indent": 3,
+        "parameters": [
+          "SKIP!"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EstherTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EstherTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EstherTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EstherTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EstherTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EstherTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EstherTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EstherTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          626,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"maid\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MaidNataleighTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MaidNataleighTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MaidNataleighTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MaidNataleighTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MaidNataleighTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MaidNataleighTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MaidNataleighTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MaidNataleighTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          490,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"mermaid\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MermaidTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MermaidTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MermaidTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MermaidTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MermaidTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MermaidTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MermaidTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MermaidTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          491,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"angel\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AngelTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AngelTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AngelTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AngelTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AngelTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AngelTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AngelTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AngelTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          281,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"marcia\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MarciaSpriteTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MarciaSpriteTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MarciaSpriteTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MarciaSpriteTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MarciaSpriteTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MarciaSpriteTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MarciaSpriteTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MarciaSpriteTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          384,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"carol\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Carol new sprite tied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Carol new sprite tied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Carol new sprite tied blindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Carol new sprite tied blindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Carol new sprite tied gagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Carol new sprite tied gagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Carol new sprite tied gagged blindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Carol new sprite tied gagged blindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          385,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"athena\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MercenaryGirlTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MercenaryGirlTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MercenaryGirlTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MercenaryGirlTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MercenaryGirlTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MercenaryGirlTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "MercenaryGirlTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "MercenaryGirlTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          388,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"risette\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "118-Civilian18 (tied up)",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "118-Civilian18 (tied up)",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "118-Civilian18 (blindfold)",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "118-Civilian18 (blindfold)",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "118-Civilian18 (tied up and gagged)",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "118-Civilian18 (tied up and gagged)",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "118-Civilian18 (trussed up)",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "118-Civilian18 (trussed up)",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          393,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"amazon\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AmazonQueenTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AmazonQueenTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AmazonQueenTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AmazonQueenTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AmazonQueenTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AmazonQueenTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "AmazonQueenTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "AmazonQueenTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          397,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"alexie\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "ArcheologistCaptainTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "ArcheologistCaptainTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "ArcheologistCaptainTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "ArcheologistCaptainTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "ArcheologistCaptainTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "ArcheologistCaptainTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "ArcheologistCaptainTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "ArcheologistCaptainTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          398,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"cilia\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Cilia Sprite tied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Cilia Sprite tied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Cilia Sprite tied blindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Cilia Sprite tied blindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Cilia Sprite tied gagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Cilia Sprite tied gagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Cilia Sprite tied gagged blindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Cilia Sprite tied gagged blindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          399,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"evelyn\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EvelynTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EvelynTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EvelynTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EvelynTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EvelynTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EvelynTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "EvelynTiedGaggedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "EvelynTiedGaggedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          631,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"alyssa\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Kurui tied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Kurui tied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Kurui tied blindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Kurui tied blindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Kurui tied gagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Kurui tied gagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "Kurui tied gagged blindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "Kurui tied gagged blindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          632,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"burglar\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 1,
+        "parameters": [
+          1,
+          79,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "BurglarNoHoodTied",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "BurglarNoHoodTied",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "BurglarNoHoodTiedBlindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "BurglarNoHoodTiedBlindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 2,
+        "parameters": [
+          1,
+          80,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "BurglarNoHoodTiedGagged",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "BurglarNoHoodTiedGagged",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 209,
+        "indent": 3,
+        "parameters": [
+          5,
+          {
+            "typeName": "RPG::MoveRoute",
+            "list": [
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 41,
+                "parameters": [
+                  "BurglarNoHoodTiedGaggedBindfold",
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "typeName": "RPG::MoveCommand",
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": false,
+            "skippable": false
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 509,
+        "indent": 3,
+        "parameters": [
+          {
+            "typeName": "RPG::MoveCommand",
+            "code": 41,
+            "parameters": [
+              "BurglarNoHoodTiedGaggedBindfold",
+              0,
+              2,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 3,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          639,
+          0,
+          5,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$currentPrivateCellDamsel = \"succ\""
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "DI New Sprites",
+    "switch_id": 1,
+    "trigger": 0
+  },

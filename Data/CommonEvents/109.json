@@ -1,0 +1,52 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 109,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          335,
+          335,
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          336,
+          336,
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          0,
+          255,
+          2,
+          4,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "GO Menu call",
+    "switch_id": 1,
+    "trigger": 0
+  },

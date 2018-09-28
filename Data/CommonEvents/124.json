@@ -1,0 +1,44 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 124,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "$scene = Scene_Bestiary.new"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 106,
+        "indent": 0,
+        "parameters": [
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "typeName": "RPG::AudioFile",
+            "name": "047-Book02",
+            "pitch": 100,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Picture Book",
+    "switch_id": 1,
+    "trigger": 0
+  },

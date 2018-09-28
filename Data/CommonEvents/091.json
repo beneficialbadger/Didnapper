@@ -1,0 +1,91 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 91,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          0,
+          378,
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 313,
+        "indent": 1,
+        "parameters": [
+          5,
+          0,
+          33
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 1,
+        "parameters": [
+          "$game_system.add_beast(24)"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 322,
+        "indent": 1,
+        "parameters": [
+          5,
+          "045-Fortuneteller01",
+          0,
+          "Genie2DID",
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 322,
+        "indent": 1,
+        "parameters": [
+          5,
+          "045-Fortuneteller01",
+          0,
+          "Genie2",
+          0
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Genie Graphic Checker",
+    "switch_id": 1,
+    "trigger": 0
+  },

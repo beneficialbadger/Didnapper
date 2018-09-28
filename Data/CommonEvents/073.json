@@ -1,0 +1,125 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 73,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 0,
+        "parameters": [
+          113
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 0,
+        "parameters": [
+          131
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "$game_system.message_event = -1"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "Do you want to open the game menu?"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 102,
+        "indent": 0,
+        "parameters": [
+          [
+            "Yes",
+            "No"
+          ],
+          2
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 402,
+        "indent": 0,
+        "parameters": [
+          0,
+          "Yes"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          92
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 351,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          92
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 1,
+        "parameters": [
+          131
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 402,
+        "indent": 0,
+        "parameters": [
+          1,
+          "No"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 404,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Menu Chest",
+    "switch_id": 1,
+    "trigger": 0
+  },

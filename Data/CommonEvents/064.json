@@ -1,0 +1,46 @@
+  {
+    "typeName": "RPG::CommonEvent",
+    "id": 64,
+    "list": [
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          171,
+          171,
+          2,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 312,
+        "indent": 0,
+        "parameters": [
+          5,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 117,
+        "indent": 0,
+        "parameters": [
+          66
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Genie \"normal\" skill use",
+    "switch_id": 1,
+    "trigger": 0
+  },
