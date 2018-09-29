@@ -20,12 +20,12 @@ RPG Maker XP uses Ruby encoded binary files during development and runtime. In o
 ## Save changes for source control
 
 * Save the changes made in RPG Maker XP
-* Split CommonEvents.json
-
-   `python splitCommonEvents.py (requires Python 3)`
 * Open RpgMakerEncoder, and click `Decode`
 
    `./Didnapper/RpgMakerEncoder/RpgMakerEncoder.exe`
+* Split CommonEvents.json
+
+   `python splitCommonEvents.py (requires Python 3)`
 * Commit the changes
 
    `git commit`
