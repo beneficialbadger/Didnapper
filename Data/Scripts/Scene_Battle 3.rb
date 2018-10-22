@@ -143,12 +143,18 @@ class Scene_Battle
         # Go to command input for next actor
         phase3_next_actor
       when 3  # item
-        # Play decision SE
-        $game_system.se_play($data_system.decision_se)
-        # Set action
-        @active_battler.current_action.kind = 2
-        # Start item selection
-        start_item_select
+        if $game_variables[716] == 1 # items are blocked
+          $game_system.se_play($data_system.buzzer_se)
+          @help_window.visible = true
+          @help_window.set_text($game_variables[717], 1)
+        else
+          # Play decision SE
+          $game_system.se_play($data_system.decision_se)
+          # Set action
+          @active_battler.current_action.kind = 2
+          # Start item selection
+          start_item_select
+        end
       end
       return
     end
