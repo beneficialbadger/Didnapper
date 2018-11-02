@@ -318,6 +318,22 @@
       },
       {
         "typeName": "RPG::EventCommand",
+        "code": 234,
+        "indent": 0,
+        "parameters": [
+          40,
+          {
+            "typeName": "Tone",
+            "blue": 0.0,
+            "gray": 0.0,
+            "green": 0.0,
+            "red": 0.0
+          },
+          3
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
         "code": 111,
         "indent": 0,
         "parameters": [
@@ -716,6 +732,22 @@
         "indent": 2,
         "parameters": [
           "Hit"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 234,
+        "indent": 2,
+        "parameters": [
+          40,
+          {
+            "typeName": "Tone",
+            "blue": 0.0,
+            "gray": 0.0,
+            "green": 255.0,
+            "red": 0.0
+          },
+          0
         ]
       },
       {
@@ -1673,6 +1705,22 @@
         "indent": 2,
         "parameters": [
           "Miss"
+        ]
+      },
+      {
+        "typeName": "RPG::EventCommand",
+        "code": 234,
+        "indent": 2,
+        "parameters": [
+          40,
+          {
+            "typeName": "Tone",
+            "blue": 0.0,
+            "gray": 0.0,
+            "green": 0.0,
+            "red": 255.0
+          },
+          0
         ]
       },
       {
